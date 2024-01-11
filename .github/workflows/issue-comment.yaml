@@ -6,12 +6,12 @@ jobs:
         if: ${{ github.event.issue.pull_request }}
         runs-on: ubuntu-latest
         steps:
-        -name: pr comment
-         run : echo ${{ github.event.issue.pull_request }}
+        - name: pr comment
+          run : echo ${{ github.event.issue.pull_request }}
 
     issue-comment:
         if: ${{ ! github.event.issue.pull_request }}
         runs-on: ubuntu-latest
         steps:
-        -name : issue comment
-         run : echo ${{ github.event.issue.pull_request }}
+        - name : issue comment
+          run : echo ${{ github.event.issue.pull_request }}
