@@ -16,7 +16,6 @@ on:
         - dev
         - qa
         - prod
-
 jobs:
   workflow-dispatch-job:
     runs-on: ubuntu-latest
