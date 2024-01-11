@@ -1,8 +1,5 @@
-# github-actions-setting 4444
-33
 
+# github-actions-setting
 
+for test 
 
-fetch from origin 
-
-make conflick mod 
